@@ -1,4 +1,4 @@
-![CS2 Flash Analytics](assets/header.jpeg)
+![CS2 Flash Analytics](header.jpeg)
 
 # CS2 Flash Efficiency Analysis
 
