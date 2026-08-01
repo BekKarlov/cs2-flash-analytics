@@ -1,3 +1,5 @@
+![CS2 Flash Analytics](assets/header.jpeg)
+
 # CS2 Flash Efficiency Analysis
 
 Analyzing flashbang efficiency in CS2 demo files using Python.
