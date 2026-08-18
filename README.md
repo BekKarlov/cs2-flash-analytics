@@ -1,4 +1,4 @@
-![CS2 Flash Analytics](header.jpeg)
+![CS2 Flash Analytics](gheader.jpeg)
 
 # CS2 Flash Efficiency Analysis
 
@@ -17,19 +17,18 @@ project to learn more about python and pandas by building something I actually c
 
 ## Key findings (single match)
 
-- 59 flashes detonated; 9 of them blinded nobody at all
-- Per-player waste rates ranged from ~18% to 80%
-- One flash can blind multiple players, so raw event counts overstate flash count
-  until you group by grenade
+Funnel from 59 flashes thrown in one match:
+- 59 thrown → 50 blinded someone → 34 blinded an enemy → 15 converted to a kill
+- 9 flashes blinded nobody; 16 more hit only teammates/self
+- Per-player conversion rates (kill within 3s of an enemy-blinding flash) ranged widely
+
+## Status
+
+v1 complete: single-match flash efficiency + conversion analysis.
+Next: scale across multiple demos for stable per-player rates.
 
 ## Built with
 
 - [demoparser2](https://github.com/LaihoE/demoparser) — CS2 demo parsing
 - pandas — data manipulation
 - Jupyter — exploratory workflow
-
-## Status
-
-Work in progress. Current "effective flash" rule is simple (blinded ≥1 enemy).
-Next steps: factor in blind duration and whether a teammate converted the flash
-into a kill.

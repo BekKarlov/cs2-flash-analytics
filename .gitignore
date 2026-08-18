@@ -2,4 +2,4 @@ venv/
 *.dem
 demos/
 .ipynb_checkpoints/
-__pychache__/
+__pycache__/
